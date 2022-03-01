@@ -1,0 +1,22 @@
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  
+  background: linear-gradient(135deg, rgba(177,144,186,1) 0%, rgba(232,181,149,1) 100%);
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+h1,
+span {
+  font-family: 'Poppins', sans-serif;
+}
+
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+  height: 300px;
+  width: 400px;
+}
